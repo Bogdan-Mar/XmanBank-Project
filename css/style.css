@@ -1,0 +1,283 @@
+body{
+    margin:  0 auto;
+    background-color: #e7e4e4;
+}
+@font-face{
+    font-family: Helvetica;
+    src: url(../fonts/9202.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: helveticaBold;
+    src: url(../fonts/ofont.ru_Helvetica\ Neue.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: HelveticaNeo;
+    src: url(../fonts/HelveticaNeue-CondensedRegular.ttf);
+    font-style: normal;
+    font-weight: normal;
+    }
+
+
+.head{
+    border: black none;
+    height: 15px;
+    background-color: black;
+
+}
+.container{
+width: 100%;
+max-width: 995px;
+margin: 0 auto;
+
+}
+/*head menu*/
+.logo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo span{
+    color: red;
+}
+.logo a{
+    padding-top: 25px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 14px;
+    transition: 0.6s;
+    
+}
+.logo a:hover{
+    color: rgb(247, 15, 15);
+    text-decoration: none;
+    transition: 0.6s;
+
+}
+.buton_acount{
+    margin-top: 14px;
+}
+.line{
+    border-left: solid 1px black;
+    height: 15px;
+    margin-top: 35px;
+    
+}
+
+/*navbar*/
+
+.navs_bar{
+    display: flex;
+    font-family: Helvetica;
+    font-weight: normal;
+    border: 1px solid #bd4434;
+    border-radius: 3px ;
+    background-color: #bd4434;
+    width: 800px;
+    
+}
+.navs_bar a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+.navs_bar a:hover{
+  transition: 0.3s;
+    background-color: #434343;
+}
+.rows{
+    display: grid;
+    grid-template-columns: 675px 100px;
+}
+.call{
+    font-size: 18px;
+    background-color: #3d3d3d;
+    border: none;
+    border-radius: 1px 0px 0px 190px;
+    padding-left: 20px;
+    color:  white;
+    width: 300px;
+   z-index: 2;
+}
+
+/*content*/
+.content{
+    margin-top: 13px;
+    margin-left: 1px;
+}
+.mycarusel{
+    width: 690px;
+}
+/*acount*/
+.acount{
+    margin-left: 15px;
+    background-image: url(../img/back-acount.jpg);
+    width: 271px;
+    text-align: center;
+    
+}
+.acount h3{
+color: white;
+font-size: 20px;
+
+}
+.user{
+    
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.form{
+    height: 25px;
+}
+.chek_imput{
+    color: white;
+    font-size: 14px;
+}
+
+.acount a{
+    text-decoration: none;
+    color: white;
+    
+}
+.password_thin{
+    font-size: 14px;
+    transition: 0.3s
+}
+.password_thin:hover{
+    transition: 0.3s;
+    color: #bd4434;
+}
+.boton{
+    color: white;
+    background-color: #bd4434;
+}
+
+.no_number{
+    font-size: 20px;
+   
+    transition: 0.3s;
+}
+.no_number:hover{
+    transition: 0.3s;
+    color: #bd4434;
+}
+.num{
+    margin-top: 18px;
+}
+.boton_acount{
+    
+    font-size: 18px;
+    color: white;
+    background-color: #bd4434;
+
+}
+/*next_content*/
+.next_content{
+   margin-top: 25px;
+  display: flex;
+  
+   
+
+}
+.next_content p {
+    font-family: HelveticaNeo;
+    font-weight: normal;
+    font-size: 14px;
+}
+.chek{
+    margin-right: 10px;
+}
+.next_content h2{
+ font-family: helveticaBold;
+ font-weight: bold;
+ font-size: 22px;
+}
+.next_content span{
+color: #e25347;
+}
+.how_content{
+    margin-left: 51px;
+}
+/*footer*/
+.footer{
+    color: white;
+    background-color: #1f1f1f;
+    height: 60px;
+    width: 100%;
+    margin-top: 32px;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+.footer p{
+    
+    font-family: helveticaBold;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 280px;
+}
+/*adaptiv*/
+@media screen and (max-width: 1100px){
+    body{
+        margin: 0 auto;
+    }
+    .mycarusel{
+        display: none;
+    }
+    .next_content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .navs_bar{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+    }
+    .call{
+        float: center;
+        background-color: #3d3d3d;
+    border: none;
+    width: 100%;
+    }
+    .navs_bar{
+        width: 100%;
+    }
+    .img_how{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .acount{
+        margin: 0 auto;
+        
+    }
+    .how_content{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .footer{
+        margin: 0 auto;
+        height : 100%;
+        text-align: center;
+    }
+    .footer p{
+      margin: 0 auto;
+    }
+   
+}
