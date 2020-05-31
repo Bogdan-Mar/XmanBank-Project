@@ -230,11 +230,19 @@ color: #e25347;
 @media screen and (max-width: 1100px){
     body{
         margin: 0 auto;
+        
+    }
+    .container{
+        font-size:30px;
     }
     .mycarusel{
         display: none;
     }
+    .next_content p {
+        font-size:28px;
+    }
     .next_content{
+        
         display: flex;
         flex-direction: column;
         margin: 0 auto;
@@ -250,6 +258,7 @@ color: #e25347;
         flex-direction: column;
     }
     .call{
+        font-size:30px;
         float: center;
         background-color: #3d3d3d;
     border: none;
@@ -264,7 +273,11 @@ color: #e25347;
         margin: 0 auto;
     }
     .acount{
+        
         margin: 0 auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
         
     }
     .how_content{
