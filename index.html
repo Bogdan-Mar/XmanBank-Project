@@ -15,6 +15,9 @@
   <div class="head"></div>
   <div class="container">
     <!--Head menu-->
+   
+
+    
     <div class="logo">
       <h1><img src="./img/Logo.png" alt="logo"> Xman<span>Bank</span></h1>
       <div class="row buton_acount">
@@ -26,6 +29,23 @@
       </div>
     </div>
     <!--Navbar-->
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Home</a></li>
+        <li><a class="menu__item" href="#">About us</a></li>
+        <li><a class="menu__item" href="#">Our services</a></li>
+        <li><a class="menu__item" href="#">Deposits</a></li>
+        <li><a class="menu__item" href="#">FAQs</a></li>
+        <li><a class="menu__item" href="#">Contact us</a></li>
+        <div class="call">
+          <p>Call us: (2457) 555 222 333</p>
+        </div>
+      </ul>
+    </div>
     <div class="rows">
       <div class="navs_bar">
         <a href="#">Home</a>
@@ -78,10 +98,10 @@
         <form>
           <div class="form-colum">
             <div class="col-md-12 mb-3 ">
-              <input type="text" class="form-control form" id="validationDefault01" value="Username" required>
+              <input type="text" class="form-control form" id="validationDefault01" placeholder="Usarname"   required>
             </div>
             <div class="col-md-12 mb-3">
-              <input type="text" class="form-control form" id="validationDefault02" value="Password" required>
+              <input type="password" class="form-control form" id="validationDefault02" placeholder="Password" required>
             </div>
           </div>
 
